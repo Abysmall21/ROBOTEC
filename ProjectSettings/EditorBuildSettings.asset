@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/AndrewTestRoom.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Imports/Avishai_Folder/Scenes/Seemless Music Test/MusicLoopTest.unity
+    guid: df6f455ce21dd2948bd3fc237046fd15
   - enabled: 1
     path: Assets/Imports/Avishai_Folder/Scenes/Seemless Music Test/music1.unity
     guid: 3ee5198e380d08143a9271fc9aa35830

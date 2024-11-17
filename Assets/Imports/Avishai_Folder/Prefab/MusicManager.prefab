@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 548237788460963956}
-  loopStart: 1
-  loopEnd: 97
+  loopStart: 0
+  loopEnd: 0
   scenesWithMusic:
   - music1
   - music2
@@ -92,8 +92,8 @@ AudioSource:
   m_GameObject: {fileID: 1771912275605702581}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2a006c952d9d9c54cab4eadb7a354732, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e8102a91196ab7f4d9637deef637e5ec, type: 2}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

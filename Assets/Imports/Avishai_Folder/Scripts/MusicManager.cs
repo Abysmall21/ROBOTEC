@@ -6,8 +6,7 @@ public class MusicManager : MonoBehaviour
 {
     public AudioSource musicSource;
     [Range(0, 300)] public float loopStart = 0f;  // Loop start time in seconds
-    [Range(0, 300)] public float loopEnd = 
-        0f;   // Loop end time in seconds
+    [Range(0, 300)] public float loopEnd = 0f;   // Loop end time in seconds
     public string[] scenesWithMusic;             // List of scene names where music should play
 
     private static MusicManager instance;
@@ -49,13 +48,21 @@ public class MusicManager : MonoBehaviour
 
     IEnumerator HandleSeamlessLoop()
     {
+        int loopStartSample = Mathf.FloorToInt(loopStart * musicSource.clip.frequency);
+        int loopEndSample = Mathf.FloorToInt(loopEnd * musicSource.clip.frequency);
+
         while (true)
         {
-            float remainingTime = loopEnd - musicSource.time;
-            yield return new WaitForSeconds(remainingTime); // Wait until loopEnd
-            musicSource.time = loopStart; // Snap back to loopStart
+            if (musicSource.timeSamples >= loopEndSample)
+            {
+                musicSource.Stop();
+                musicSource.timeSamples = loopStartSample;
+                musicSource.Play();
+            }
+            yield return null;
         }
     }
+
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
