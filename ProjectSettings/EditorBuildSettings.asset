@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Imports/Avishai_Folder/Scenes/Seemless Music Test/music1.unity
+    guid: 3ee5198e380d08143a9271fc9aa35830
+  - enabled: 1
+    path: Assets/Imports/Avishai_Folder/Scenes/Seemless Music Test/music2.unity
+    guid: ab9487cad153c3e45adac80dc5964186
   m_configObjects: {}
