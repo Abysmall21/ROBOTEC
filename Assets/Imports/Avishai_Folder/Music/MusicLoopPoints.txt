@@ -1,0 +1,7 @@
+1. Puzzle_BGM
+	loopstart = 14
+	loopend = 110
+
+2. TitleScreen_BGM
+	loopstart = 25
+	loopend = 90

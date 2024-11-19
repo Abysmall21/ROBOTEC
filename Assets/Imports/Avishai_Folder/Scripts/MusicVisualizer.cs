@@ -97,7 +97,7 @@ public class MusicVisualizer : MonoBehaviour
         }
 
         // Clear song name text when the scene stops
-        if (!EditorApplication.isPlaying && songNameText != null)
+        //if (!EditorApplication.isPlaying && songNameText != null)
         {
             songNameText.text = ""; // Clear text when the scene is stopped in the editor
         }
