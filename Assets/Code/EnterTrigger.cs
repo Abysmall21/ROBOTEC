@@ -8,8 +8,8 @@ public class EnterTrigger : MonoBehaviour
 {
     public string TagName;
     
-    public int score = 5;
-    public int CurScore = 0;
+    public static int score = 5;
+    public static int CurScore = 0;
     public TMP_Text scoreText;
 
     // Start is called before the first frame update

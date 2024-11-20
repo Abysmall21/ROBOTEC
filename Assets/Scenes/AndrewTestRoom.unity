@@ -717,8 +717,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TagName: Throwables
-  score: 5
-  CurScore: 0
   scoreText: {fileID: 186351409}
 --- !u!1001 &352849218
 PrefabInstance:
@@ -1296,6 +1294,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484971960}
   m_CullTransparentMesh: 1
+--- !u!1 &534967462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534967463}
+  m_Layer: 0
+  m_Name: MoveTo (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &534967463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534967462}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.46, y: 1.58, z: -10.95}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &605578938
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1690,8 +1719,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TagName: Throwables
-  score: 5
-  CurScore: 0
   scoreText: {fileID: 186351409}
 --- !u!1 &769706146
 GameObject:
@@ -2253,8 +2280,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TagName: Throwables
-  score: 5
-  CurScore: 0
   scoreText: {fileID: 186351409}
 --- !u!1 &885840486
 GameObject:
@@ -2906,6 +2931,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162182685}
   m_CullTransparentMesh: 1
+--- !u!1 &1177594836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1177594837}
+  m_Layer: 0
+  m_Name: MoveTo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1177594837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177594836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.46, y: 1.58, z: -4.951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1213017581
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,8 +3100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TagName: Throwables
-  score: 5
-  CurScore: 0
   scoreText: {fileID: 186351409}
 --- !u!1 &1288422108
 GameObject:
@@ -5865,7 +5919,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7851989326895761893, guid: 7a1fb4d08bfbafb41b3fe4ad1eba258c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1778542728}
+    - targetCorrespondingSourceObject: {fileID: 7851989326895761893, guid: 7a1fb4d08bfbafb41b3fe4ad1eba258c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5619188682834145736}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6761490907472360247, guid: 7a1fb4d08bfbafb41b3fe4ad1eba258c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 827958825173014399}
     - targetCorrespondingSourceObject: {fileID: 127164092101065173, guid: 7a1fb4d08bfbafb41b3fe4ad1eba258c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 350734310}
@@ -5884,25 +5944,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7851989326895761893, guid: 7a1fb4d08bfbafb41b3fe4ad1eba258c, type: 3}
   m_PrefabInstance: {fileID: 827958825173014396}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &827958825173014398 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6761490907472360247, guid: 7a1fb4d08bfbafb41b3fe4ad1eba258c, type: 3}
+  m_PrefabInstance: {fileID: 827958825173014396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &827958825173014399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827958825173014398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac37410bdcf13e241a107e514ccd1c4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FalseWall: {fileID: 2001935571}
+  TragetObject: {fileID: 827958825173014398}
+  MoveToPos: {fileID: 534967462}
+  Goal: 0
 --- !u!1001 &5619188682834145733
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 827958825173014397}
     m_Modifications:
     - target: {fileID: 3825397957205374876, guid: 59d904f3a67248d4a9ff67089b4de3c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.46
+      value: -0.0004143715
       objectReference: {fileID: 0}
     - target: {fileID: 3825397957205374876, guid: 59d904f3a67248d4a9ff67089b4de3c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.58
+      value: -0.00043737888
       objectReference: {fileID: 0}
     - target: {fileID: 3825397957205374876, guid: 59d904f3a67248d4a9ff67089b4de3c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.951
+      value: 0.001999855
       objectReference: {fileID: 0}
     - target: {fileID: 3825397957205374876, guid: 59d904f3a67248d4a9ff67089b4de3c2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5914,7 +5995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3825397957205374876, guid: 59d904f3a67248d4a9ff67089b4de3c2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3825397957205374876, guid: 59d904f3a67248d4a9ff67089b4de3c2, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5962,12 +6043,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: Throwables
+--- !u!4 &5619188682834145736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3825397957205374876, guid: 59d904f3a67248d4a9ff67089b4de3c2, type: 3}
+  m_PrefabInstance: {fileID: 5619188682834145733}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 109856109}
-  - {fileID: 5619188682834145733}
   - {fileID: 827958825173014396}
   - {fileID: 1515401330}
   - {fileID: 349282281}
@@ -5981,3 +6066,5 @@ SceneRoots:
   - {fileID: 1741514258}
   - {fileID: 1535932065}
   - {fileID: 1688693025}
+  - {fileID: 1177594837}
+  - {fileID: 534967463}
