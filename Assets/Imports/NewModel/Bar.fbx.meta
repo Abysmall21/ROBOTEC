@@ -3,7 +3,12 @@ guid: 1080b4406042c5c4c9ecfc87e488b452
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PropColors
+    second: {fileID: 2100000, guid: 84c1206e361d761479e7b059347afcc4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

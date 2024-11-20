@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class EnterTrigger : MonoBehaviour
 {
     public string TagName;
-    public GameObject[] Triggers;
-    public int score;
+    
+    public int score = 5;
     public int CurScore = 0;
     public TMP_Text scoreText;
 
@@ -23,11 +23,11 @@ public class EnterTrigger : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider co)
+    void OnTriggerEnter(Collider co)
     {
         if(co.gameObject.tag == TagName)
         {
-            CurScore = score++;
+            CurScore = CurScore + score;
             scoreText.text = "SCORE: " + CurScore.ToString();
         }
     }
