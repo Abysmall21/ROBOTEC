@@ -48,9 +48,7 @@ MonoBehaviour:
   musicSource: {fileID: 548237788460963956}
   loopStart: 0
   loopEnd: 0
-  scenesWithMusic:
-  - music1
-  - music2
+  scenesWithMusic: []
 --- !u!1 &1771912275605702581
 GameObject:
   m_ObjectHideFlags: 0

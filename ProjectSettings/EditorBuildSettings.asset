@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Imports/Avishai_Folder/Scenes/Seemless Music Test/MusicLoopTest.unity
-    guid: df6f455ce21dd2948bd3fc237046fd15
+    path: Assets/Imports/Avishai_Folder/Scenes/MainMenu.unity
+    guid: c3144f5840c2df44a8a7433eb4e85789
   - enabled: 1
-    path: Assets/Imports/Avishai_Folder/Scenes/Seemless Music Test/music1.unity
-    guid: 3ee5198e380d08143a9271fc9aa35830
+    path: Assets/Scenes/AndrewTestRoom.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Imports/Avishai_Folder/Scenes/Seemless Music Test/music2.unity
-    guid: ab9487cad153c3e45adac80dc5964186
+    path: Assets/Imports/Avishai_Folder/Scenes/PuzzleTestScene.unity
+    guid: 7c805d4ca720ae64896813c40a8e6398
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 10b6ac4bab51f1843af631c2abcc66f3, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1fdb6ca8068f9e848a7a3f2d326c2125, type: 2}

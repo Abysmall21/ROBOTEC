@@ -272,6 +272,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7083813446608479732, guid: 9d35b39f362ad1a49a757e108f466909, type: 3}
+      propertyPath: scenesWithMusic.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083813446608479732, guid: 9d35b39f362ad1a49a757e108f466909, type: 3}
+      propertyPath: scenesWithMusic.Array.data[0]
+      value: music1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083813446608479732, guid: 9d35b39f362ad1a49a757e108f466909, type: 3}
+      propertyPath: scenesWithMusic.Array.data[1]
+      value: music2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -398,7 +410,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24ba28325aa8588418fb7bd1e0b6d270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: music2
+  mainMenuPanel: {fileID: 0}
+  startMenuPanel: {fileID: 0}
+  aboutMenuPanel: {fileID: 0}
+  aboutInfoText: {fileID: 0}
+  puzzleSceneName: PuzzleScene
+  dartSceneName: DartScene
 --- !u!4 &278476760
 Transform:
   m_ObjectHideFlags: 0
