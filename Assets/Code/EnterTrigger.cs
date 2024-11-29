@@ -8,9 +8,11 @@ public class EnterTrigger : MonoBehaviour
 {
     public string TagName;
     
-    public static int score = 5;
-    public static int CurScore = 0;
+    public int score = 5;
+    public int CurScore = 0;
     public TMP_Text scoreText;
+    public GameObject[] targetCo;
+    public Collider[] tragetCo;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,7 @@ public class EnterTrigger : MonoBehaviour
     }
     void OnTriggerEnter(Collider co)
     {
-        if(co.gameObject.tag == TagName)
+        if (co.gameObject.tag == TagName)
         {
             CurScore = CurScore + score;
             scoreText.text = "SCORE: " + CurScore.ToString();
