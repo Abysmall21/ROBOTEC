@@ -8,6 +8,7 @@ public class MoveTo : MonoBehaviour
     public GameObject TragetObject;
     public GameObject MoveToPos;
     public int Goal;
+    public EnterTrigger _enterTrigger;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +18,11 @@ public class MoveTo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if(Goal == 30)
+        Goal = _enterTrigger.CurScore;
+        if(Goal >= 60)
         {
             HideWall();
+            _enterTrigger.CurScore = 0;
         }
     }
     void HideWall()

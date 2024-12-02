@@ -23,7 +23,7 @@ public class EnterTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        scoreText.text = "SCORE: " + CurScore.ToString();
     }
     void OnTriggerEnter(Collider co)
     {
