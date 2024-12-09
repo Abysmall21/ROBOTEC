@@ -45,7 +45,6 @@ public class MenuManager : MonoBehaviour
         mainMenuPanel.SetActive(false);
         startMenuPanel.SetActive(false);
         aboutMenuPanel.SetActive(true);
-
     }
 
     // Load the PuzzleScene
@@ -64,6 +63,12 @@ public class MenuManager : MonoBehaviour
     public void LoadMainMenuScene()
     {
         SceneManager.LoadScene(mainMenuSceneName); // Load Main Menu Scene
+    }
+
+    // Reset the current scene
+    public void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Reload the current scene
     }
 
     // Exit the game

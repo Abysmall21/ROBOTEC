@@ -21,7 +21,7 @@ public class SceneChanger : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Cube") && !soundPlayed)
+        if (collision.gameObject.CompareTag("PuzzleBall") && !soundPlayed)
         {
             // Play sound effect once
             if (soundEffect != null)

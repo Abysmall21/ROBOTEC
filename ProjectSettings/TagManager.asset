@@ -10,6 +10,7 @@ TagManager:
   - Meteor
   - SceneCube
   - Cube
+  - PuzzleBall
   layers:
   - Default
   - TransparentFX
