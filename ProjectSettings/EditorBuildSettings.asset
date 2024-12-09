@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu/MainMenu.unity
     guid: c3144f5840c2df44a8a7433eb4e85789
   - enabled: 1
-    path: Assets/Scenes/Dart Game/AndrewTestRoom.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
     path: Assets/Scenes/Puzzle Levels/Complete/PuzzleLevel_1.unity
     guid: 7c805d4ca720ae64896813c40a8e6398
   - enabled: 1
@@ -26,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Puzzle Levels/Complete/PuzzleLevel_4.unity
     guid: a3e28f79a01ad1b4d944dd33a5b95fb4
+  - enabled: 1
+    path: Assets/Scenes/Puzzle Levels/Complete/PuzzleLevel_Ending.unity
+    guid: f083b9b9f00030649814d78ec7e1cb0b
+  - enabled: 1
+    path: Assets/Scenes/AndrewTestRoom.unity
+    guid: ce899357a5dd13d468cd0ad4c0360bd1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 10b6ac4bab51f1843af631c2abcc66f3, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 1fdb6ca8068f9e848a7a3f2d326c2125, type: 2}
