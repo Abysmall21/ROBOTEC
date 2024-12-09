@@ -7,6 +7,9 @@ TagManager:
   - Throwables
   - Ground
   - Button
+  - Meteor
+  - SceneCube
+  - Cube
   layers:
   - Default
   - TransparentFX
