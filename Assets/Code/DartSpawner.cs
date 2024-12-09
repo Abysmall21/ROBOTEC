@@ -9,7 +9,7 @@ public class DartSpawner : MonoBehaviour
     Vector3 pos;
     public void Spawn()
     {
-        pos = gameObject.transform.position;
+        pos = this.gameObject.transform.position;
         Instantiate(Dart);
     }
 
